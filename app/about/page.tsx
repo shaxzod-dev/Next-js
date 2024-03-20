@@ -28,7 +28,6 @@ const About = async () => {
                 <p className="text-red-600">{el.id}</p>
                 <p>{el.userId}</p>
                 <p>{el.completed}</p>
-                <p>hello</p>
               </div>
             </div>
           );
