@@ -10,7 +10,8 @@
           "@layer"
         ]
       }
-    ]
+    ],
+    "typescript-config/consistent-casing": "off"
   },
   "browserslist": [
     "defaults",
