@@ -4,3 +4,8 @@ export type TypeJsonData = {
   title: string;
   completed: boolean;
 };
+export interface INavData {
+  id: number;
+  text: string;
+  href: "/about" | "/contacts" | "/";
+}

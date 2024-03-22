@@ -1,19 +1,32 @@
+import { Metadata } from "next";
 import Link from "next/link";
-import { DrawerDemo } from "~/components/drawer";
-import { DropdownMenuDemo } from "~/components/dropdown";
+import Banner from "~/components/banner";
+import Header from "~/components/header";
+import Navbar from "~/components/navbar";
+
+export const metaData: Metadata = {
+  title: "Avion",
+  keywords: [
+    "Sofa",
+    "Avion",
+    "Tables",
+    "Chairs",
+    "Armchairs",
+    "Drawers",
+    "Chest of drawers",
+  ],
+  openGraph: {
+    images: ["/Brand-img.png"],
+  },
+  description: "Luxury homeware for people who love timeless design quality",
+};
 
 export default function Home() {
   return (
     <>
-      <div className="container">
-        <h2 className="text-left">Lorem ipsum dolor sit amet.</h2>
-        <Link className="underline text-blue-600" href={"/about"}>
-          About
-        </Link>
-        <div className="flex flex-col">
-          <DropdownMenuDemo />
-        </div>
-      </div>
+      <Header />
+      <Navbar />
+      <Banner />
     </>
   );
 }
