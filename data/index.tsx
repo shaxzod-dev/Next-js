@@ -1,4 +1,5 @@
-import { INavData } from "~/types";
+import { Icons } from "~/assets";
+import { IBrandData, ICollectionData, INavData, ISignUpData } from "~/types";
 
 export const navData: INavData[] = [
   {
@@ -35,5 +36,47 @@ export const navData: INavData[] = [
     id: 6,
     href: "/about",
     text: "Cutlery",
+  },
+];
+
+export const BrandData: IBrandData[] = [
+  {
+    id: 0,
+    icon: <Icons.DeliveryIcon className="w-full h-full" />,
+    title: "Next day as standard",
+    text: "Order before 3pm and get your order the next day as standard",
+  },
+  {
+    id: 1,
+    icon: <Icons.CheckIcon />,
+    title: "Made by true artisans",
+    text: "Handmade crafted goods made with real passion and craftmanship",
+  },
+  {
+    id: 2,
+    icon: <Icons.WalletIcon />,
+    title: "Unbeatable prices",
+    text: "For our materials and quality you won’t find better prices anywhere",
+  },
+  {
+    id: 3,
+    icon: <Icons.SproutIcon />,
+    title: "Recycled packaging",
+    text: "We use 100% recycled to ensure our footprint is more manageable",
+  },
+];
+
+export const SignUpData: ISignUpData[] = [
+  {
+    id: 0,
+    title: "Exclusive offers",
+  },
+  {
+    id: 1,
+    title: "Free events",
+  },
+  {
+    id: 2,
+    title: "Large discounts",
   },
 ];

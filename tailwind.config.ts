@@ -20,9 +20,14 @@ const config = {
     extend: {
       backgroundImage: {
         "banner-img": "url(/Brand-img.png)",
+        "idea-armchair":
+          "url(https://firebasestorage.googleapis.com/v0/b/uploadimage-53655.appspot.com/o/armchair.png?alt=media&token=522bc91d-cedc-4198-802f-feaaba474c60)",
+        "sign-up":
+          "url(https://firebasestorage.googleapis.com/v0/b/uploadimage-53655.appspot.com/o/Email%20sign-up.png?alt=media&token=b268790d-f2c0-46bb-a638-32bd44b9102f)",
       },
       colors: {
         title_color: "rgb(34,32,46)",
+        primary_color: "rgb(42,37,75)",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
