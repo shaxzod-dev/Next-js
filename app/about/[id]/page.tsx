@@ -22,11 +22,11 @@ const ProductView = ({ params }: { params: { id: number } }) => {
 
 export default ProductView;
 
-export async function generateStaticParams() {
-  const posts = await fetch(
-    "https://6605705d2ca9478ea1804f1b.mockapi.io/data"
-  ).then((res) => res.json());
-  return posts.map((post: { slug: string }) => ({
-    slug: post.slug,
-  }));
-}
+// export async function generateStaticParams() {
+//   const posts = await fetch(
+//     "https://6605705d2ca9478ea1804f1b.mockapi.io/data"
+//   ).then((res) => res.json());
+//   return posts.map((post: { slug: string }) => ({
+//     slug: post.slug,
+//   }));
+// }

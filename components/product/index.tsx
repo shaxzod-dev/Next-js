@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import React, { ReactElement, useEffect, useState } from "react";
+import React, { ReactElement } from "react";
 import { IProductData } from "~/types";
 import { Skeleton } from "../ui/skeleton";
 import { useQuery } from "react-query";

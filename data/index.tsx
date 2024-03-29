@@ -1,5 +1,5 @@
 import { Icons } from "~/assets";
-import { IBrandData, ICollectionData, INavData, ISignUpData } from "~/types";
+import { IBrandData,  INavData, ISignUpData } from "~/types";
 
 export const navData: INavData[] = [
   {
